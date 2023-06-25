@@ -1,0 +1,325 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.nav {
+  margin-top: 58px;
+}
+
+.nav .container {
+  display: flex;
+}
+
+.nav .brand,
+.nav .ctas {
+  width: 20%;
+}
+
+.nav .menu {
+  width: 60%;
+}
+
+.nav .brand {
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+}
+
+.nav .brand .id {
+  color: #4070f4;
+}
+
+.menu-item {
+  color: #000;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.menu-item:hover {
+  opacity: 2;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+}
+.nav .menu-item-active {
+  opacity: 1;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+}
+
+.nav .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav .ctas {
+  text-align: right;
+}
+
+.nav .Order {
+  padding: 10px 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+img {
+  float: right;
+  position: absolute;
+  right: 10%;
+}
+
+.hero-headline {
+  font-size: 36px, 8.5vmin, 88px;
+  font-weight: 400;
+  margin-right: 400px;
+  text-align: left;
+}
+
+.hero-subline {
+  font-size: 14px;
+  margin-right: 600px;
+  text-align: left;
+}
+
+.cta-primary {
+  font-size: 12px;
+  display: inline-block;
+  background: #4070f4;
+  color: #fff;
+  border-radius: 100px;
+  padding: 12px 17px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.cta-primary:hover {
+  background: #000;
+  border: 1px solid #4070f4;
+}
+
+.hero-ctas {
+  text-align: left;
+}
+
+.jobs-list {
+  display: flex;
+  gap: 30px;
+}
+
+.jobs {
+  margin-top: 40px;
+  text-align: left;
+  text-size: 18px;
+}
+
+.job {
+  width: calc(100% / 3);
+  padding: 25px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 30px 60px rgba(0, 26, 255, 0.5);
+  text-decoration: none;
+}
+
+.job-headline {
+  margin: 0 0 17px 0;
+  font-size: inherit;
+  font-weight: 400px;
+}
+
+.job-meta {
+  margin-left: 13px;
+}
+
+.job-title {
+  font-size: 15px;
+  margin: 0 0 5px 0;
+  color: #4070f4;
+}
+.job-company {
+  font-size: 14px;
+  margin: 0;
+}
+
+.job-description {
+  margin: 17px 0;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 26px;
+}
+
+.job-deviden {
+  margin: 85px 0 10px 0;
+  color: rgba (0, 0, 0, 0.05);
+}
+
+.job-salary {
+  margin-left: auto;
+  font-size: 14px;
+  font-weight: 400px;
+  color: #000;
+}
+
+.job:hover {
+  transition: all 0.5s;
+  background-color: #4070f4;
+}
+
+.job:hover .job-title {
+  color: #fff;
+}
+
+.job:hover .job-deviden {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.job:hover .job-company,
+.job:hover .job-description {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.job:hover .job-salary,
+.job:hover .job-tag {
+  color: #fff;
+}
+
+.job-header {
+  display: flex;
+  align-item: center;
+}
+
+///css testimonial
+/* FOOTER */
+.footer {
+  width: 100%;
+  background: #00121b;
+  display: block;
+}
+
+.inner-footer {
+  width: 95%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.footer-items {
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #000;
+}
+
+.footer-items p {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+  color: #000;
+}
+
+.footer-items h1 {
+  color: #000;
+}
+
+.border1 {
+  height: 3px;
+  width: 40px;
+  background: #000;
+  color: #000;
+  background-color: #000;
+  border: 0px;
+}
+
+ul {
+  list-style: none;
+  color: #000;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+ul a {
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  transition: 0.3s;
+}
+
+ul a:hover {
+  color: #ff9800;
+}
+
+ul li {
+  margin: 10px 0;
+  height: 25px;
+}
+
+li i {
+  margin-right: 20px;
+}
+
+.social-media {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media i {
+  height: 25px;
+  width: 25px;
+  margin: 20px 10px;
+  padding: 4px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.social-media i:hover {
+  transform: scale(1.5);
+}
+
+.footer-bottom {
+  padding: 10px;
+  background: #00121b;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* for tablet mode view */
+
+@media screen and (max-width: 1275px) {
+  .footer-items {
+    width: 50%;
+  }
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+  .footer-items {
+    width: 100%;
+  }
+}
