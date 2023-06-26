@@ -78,10 +78,10 @@ body {
   padding: 100px 0;
 }
 
-img {
-  float: right;
-  position: absolute;
-  right: 10%;
+.responsive {
+  width: 400px;
+  max-width: 400px;
+  height: auto;
 }
 
 .hero-headline {
